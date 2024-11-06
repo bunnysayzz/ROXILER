@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const URL = `http://localhost:5001/api`;
+const URL = `https://roxiler-kb5f.onrender.com/api`;
+//https://roxiler-kb5f.onrender.com/api
+//http://localhost:5001/api
 
 export const initDatabase = () => axios.get(`${URL}/initialize`);
 
